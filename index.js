@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const cors = require('cors');
 const app = express();
-const PORT = 3000;
+const PORT = 3090;
 
 app.use(cors())
 app.get("/gemini", async (req, res) => {
